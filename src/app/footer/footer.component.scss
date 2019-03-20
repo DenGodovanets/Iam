@@ -1,0 +1,11 @@
+footer {
+    color:gray;
+    height: 45px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+        margin:0 4% 0 2%;
+    }
+}

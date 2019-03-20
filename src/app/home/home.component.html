@@ -1,0 +1,8 @@
+<div [className]="'home'">
+  <div [className]="'my-works'">my works</div>
+  <mat-grid-list cols="4" rowHeight="100px">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows">
+      <img [src]="tile.img">
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
